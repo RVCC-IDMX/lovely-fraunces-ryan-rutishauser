@@ -1,6 +1,20 @@
 /* typography */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-variation-settings: "opsz" 141, "SOFT" 100, "WONK" 1;
+  font-weight: 100 900;
+  src: url('../fonts/Fraunces[SOFT,WONK,opsz,wght].ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-variation-settings: "opsz" 9, "SOFT" 0, "WONK" 1;
+  font-weight: 100 900;
+  src: url('../fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf') format('truetype');
+}
 
 $font: "Fraunces", serif;
 
